@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Shaheen 🦋</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        min-height: 100vh;
+        overflow-x: hidden;
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        position: relative;
+    }
+
+    .container {
+        max-width: 700px;
+        width: 100%;
+        background: rgba(255,255,255,0.15);
+        backdrop-filter: blur(12px);
+        border-radius: 30px;
+        padding: 35px 25px;
+        text-align: center;
+        color: white;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        z-index: 2;
+    }
+
+    h1 {
+        font-family: 'Dancing Script', cursive;
+        font-size: 3.5rem;
+        margin-bottom: 20px;
+    }
+
+    .message {
+        font-size: 1.1rem;
+        line-height: 1.9;
+        margin-bottom: 30px;
+    }
+
+    .signature {
+        font-family: 'Dancing Script', cursive;
+        font-size: 2rem;
+        margin-top: 25px;
+    }
+
+    iframe {
+        width: 100%;
+        max-width: 560px;
+        height: 315px;
+        border: none;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+
+    .butterfly {
+        position: fixed;
+        font-size: 30px;
+        animation: float linear infinite;
+        opacity: 0.8;
+        pointer-events: none;
+    }
+
+    @keyframes float {
+        from {
+            transform: translateY(110vh) translateX(0);
+        }
+        to {
+            transform: translateY(-20vh) translateX(100px);
+        }
+    }
+
+    @media (max-width: 600px) {
+        h1 {
+            font-size: 2.7rem;
+        }
+
+        .message {
+            font-size: 1rem;
+        }
+
+        iframe {
+            height: 220px;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<div class="butterfly" style="left:10%; animation-duration:15s;">🦋</div>
+<div class="butterfly" style="left:30%; animation-duration:20s;">🦋</div>
+<div class="butterfly" style="left:55%; animation-duration:17s;">🦋</div>
+<div class="butterfly" style="left:75%; animation-duration:22s;">🦋</div>
+<div class="butterfly" style="left:90%; animation-duration:18s;">🦋</div>
+
+<div class="container">
+    <h1>For Shaheen 🦋</h1>
+
+    <div class="message">
+        Some people enter our lives quietly and leave their fingerprints on our hearts forever.
+        <br><br>
+
+        You have always reminded me of a butterfly—
+        gentle yet strong, delicate yet brave, carrying beauty even after surviving storms.
+        <br><br>
+
+        I know we have both been hurt. I know words alone cannot undo pain.
+        But beyond the tears and difficult conversations, I still remember our laughter,
+        the way time slowed down when we spoke, and the warmth of simply knowing you existed.
+        <br><br>
+
+        This isn't a plea or a promise that the past never happened.
+        It's simply a reminder that what we shared mattered deeply to me.
+        And no matter where life takes us, a part of my heart will always be grateful
+        for the girl who taught it how to love.
+    </div>
+
+    <iframe
+        src="https://www.youtube.com/embed/7KKVb0_IdD4"
+        title="A Song For Shaheen"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+    </iframe>
+
+    <div class="signature">
+        With love,<br>
+        Vinay ❤️
+    </div>
+</div>
+
+</body>
+</html>
